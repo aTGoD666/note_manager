@@ -8,4 +8,12 @@ content = input("Описание: ") # описание заметки
 status = input("Статус: ") # статус заметки
 created_date = datetime.strptime(input("Дата: "), "%d-%m-%y") # дата создание заметки (формат дд-мм-гггг)
 issue_date = datetime.strptime(input("Дата: "), "%d-%m-%y") # дата истечения заметки (формат дд-мм-гггг)
+
+print(username)
+print(title)
+print(title2)
+print(title3)
+print(content)
+print(status)
+print(created_date)
 print(title_all)
